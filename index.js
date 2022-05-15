@@ -6,6 +6,11 @@ app.get('/', (req, res) => {
   res.send('Hot Damn!')
 })
 
+app.get('/test66', (req, res) => {
+    res.send('Okay DOne!')
+  })
+  
+
 app.listen(port, () => {
   console.log(`app r=nn=ing on ${port}`)
 })
